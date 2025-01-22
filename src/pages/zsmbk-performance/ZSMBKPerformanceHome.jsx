@@ -21,12 +21,21 @@ import Jinx002 from "../../assets/images/references/jinx/2.webp";
 import Jinx003 from "../../assets/images/references/jinx/3.webp";
 import Jinx004 from "../../assets/images/references/jinx/4.webp";
 import Jinx005 from "../../assets/images/references/jinx/5.webp";
-import Miami001 from "../../assets/images/references/miamibeach/1.webp";
-import Miami002 from "../../assets/images/references/miamibeach/2.webp";
-import Miami003 from "../../assets/images/references/miamibeach/3.webp";
-import Nikola001 from "../../assets/images/references/nikolatesla/1.webp";
-import Nikola002 from "../../assets/images/references/nikolatesla/2.webp";
-import Nikola003 from "../../assets/images/references/nikolatesla/3.webp";
+import Miami001 from "../../assets/images/references/miamibeach/01.webp";
+import Miami002 from "../../assets/images/references/miamibeach/02.webp";
+import Miami003 from "../../assets/images/references/miamibeach/03.webp";
+import Miami004 from "../../assets/images/references/miamibeach/04.webp";
+import Miami005 from "../../assets/images/references/miamibeach/05.webp";
+import Miami006 from "../../assets/images/references/miamibeach/06.webp";
+import Miami007 from "../../assets/images/references/miamibeach/07.webp";
+import Miami008 from "../../assets/images/references/miamibeach/08.webp";
+import Nikola001 from "../../assets/images/references/nikolatesla/01.webp";
+import Nikola002 from "../../assets/images/references/nikolatesla/02.webp";
+import Nikola003 from "../../assets/images/references/nikolatesla/03.webp";
+import Nikola004 from "../../assets/images/references/nikolatesla/04.webp";
+import Nikola005 from "../../assets/images/references/nikolatesla/05.webp";
+import Nikola006 from "../../assets/images/references/nikolatesla/06.webp";
+import Nikola007 from "../../assets/images/references/nikolatesla/07.webp";
 import Panda001 from "../../assets/images/references/panda/1.webp";
 import Panda002 from "../../assets/images/references/panda/2.webp";
 import Panda003 from "../../assets/images/references/panda/3.webp";
@@ -83,7 +92,12 @@ const ZSMBKPerformanceHome = () => {
             images: [
                 Miami001,
                 Miami002,
-                Miami003
+                Miami003,
+                Miami004,
+                Miami005,
+                Miami006,
+                Miami007,
+                Miami008
             ]
         },
         {
@@ -92,6 +106,10 @@ const ZSMBKPerformanceHome = () => {
                 Nikola001,
                 Nikola002,
                 Nikola003,
+                Nikola004,
+                Nikola005,
+                Nikola006,
+                Nikola007
             ]
         },
         {
@@ -228,7 +246,7 @@ const ZSMBKPerformanceHome = () => {
                         <span className="text-gray-500">DÍJCSOMAG-002</span>
                         <span className="font-dm-sans-black block text-5xl text-white">STANDARD</span>
 
-                        <p className="my-8">STANDARD díjcsomagunk a <strong>25-tól 50 darab decal (egyedi grafikai elem)</strong> alapján felépített, egyedi livery (avagy paintjob) kiötlését és megtervezését tartalmazza.*</p>
+                        <p className="my-8">STANDARD díjcsomagunk a <strong>25-től 50 darab decal (egyedi grafikai elem)</strong> alapján felépített, egyedi livery (avagy paintjob) kiötlését és megtervezését tartalmazza.*</p>
 
                         <p className="mt-auto">Irányár:
                             <span className="block text-2xl max-md:text-lg font-dm-sans-black">2.000.000 - <br /> 3.000.000 $</span>
