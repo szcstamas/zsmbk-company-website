@@ -1,6 +1,7 @@
 :root {
   --zsmbk-blue: #54c1e6;
   --zsmbk-golden: #febb01;
+  --zsmbk-green: #52be00;
   --zsmbk-dark: #000000;
 }
 
@@ -137,6 +138,11 @@
     border-color: var(--zsmbk-golden);
   }
 
+  .zsmbk-header-button:nth-child(3) {
+    color: var(--zsmbk-green);
+    border-color: var(--zsmbk-green);
+  }
+
   .zsmbk-header-button::before {
     content: "";
     position: absolute;
@@ -159,6 +165,12 @@
     color: var(--zsmbk-dark);
     background-color: var(--zsmbk-golden);
     border: 3px solid var(--zsmbk-golden);
+  }
+
+  .zsmbk-header-button:nth-child(3):before {
+    color: var(--zsmbk-dark);
+    background-color: var(--zsmbk-green);
+    border: 3px solid var(--zsmbk-green);
   }
 
   .zsmbk-header-button:last-child:before {

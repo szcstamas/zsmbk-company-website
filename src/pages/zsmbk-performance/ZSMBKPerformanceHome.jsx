@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { motion } from "framer-motion";
-import ZSMBKPerformanceLogo from "../../assets/images/logo/zsmbk-performance-logo.jpg";
+import ZSMBKPerformanceLogo from "../../assets/images/logo/zsmbk-performance-logo.webp";
 import Cyberpunk01 from "../../assets/images/references/cyberpunk/1.webp";
 import Cyberpunk02 from "../../assets/images/references/cyberpunk/2.webp";
 import Cyberpunk03 from "../../assets/images/references/cyberpunk/3.webp";

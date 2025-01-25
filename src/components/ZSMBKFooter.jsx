@@ -2,9 +2,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import ZSMBKPerformanceLogo from "../assets/images/logo/zsmbk-performance-logo.jpg";
-import ZSMBKMiningStationLogo from "../assets/images/logo/zsmbk-mining-station-logo.jpg";
-import DiscordLogo from "../assets/images/logo/discord-logo.png";
+import ZSMBKPerformanceLogo from "../assets/images/logo/zsmbk-performance-logo.webp";
+import ZSMBKMiningStationLogo from "../assets/images/logo/zsmbk-mining-station-logo.webp";
+import ZSMBKLogisticsLogo from "../assets/images/logo/zsmbk-logistics-logo.webp";
+import DiscordLogo from "../assets/images/logo/discord-logo.webp";
 
 const ZSMBKFooter = () => {
   return (
@@ -23,12 +24,15 @@ const ZSMBKFooter = () => {
           <img src={DiscordLogo} alt="Logo of Discord" className="w-[80px]" />
         </a>
       </div>
-      <div className="flex justify-center items-center gap-12 mt-10">
+      <div className="flex justify-center items-center gap-12 mt-10 max-md:flex-col">
         <Link to="zsmbk-performance" className="w-[150px] rounded-full overflow-hidden border-2 border-zsmbk-blue transition-all hover:-translate-y-2">
           <img src={ZSMBKPerformanceLogo} alt="Logo of ZSMBK Performance" />
         </Link>
         <Link to="zsmbk-mining-station" className="w-[150px] rounded-full overflow-hidden border-2 border-zsmbk-golden transition-all hover:-translate-y-2">
           <img src={ZSMBKMiningStationLogo} alt="Logo of ZSMBK Mining Station" />
+        </Link>
+        <Link to="zsmbk-logistics" className="w-[150px] rounded-full overflow-hidden border-2 border-zsmbk-green transition-all hover:-translate-y-2">
+          <img src={ZSMBKLogisticsLogo} alt="Logo of ZSMBK Logistics" />
         </Link>
       </div>
     </motion.footer>

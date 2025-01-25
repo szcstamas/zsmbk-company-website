@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { motion } from "framer-motion";
-import ZSMBKMiningStationLogo from "../../assets/images/logo/zsmbk-mining-station-logo.jpg";
+import ZSMBKMiningStationLogo from "../../assets/images/logo/zsmbk-mining-station-logo.webp";
 
 const ZSMBKMiningStationHome = () => {
     const EricNumberToCopy = "+38-76-260-7738";

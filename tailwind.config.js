@@ -21,9 +21,9 @@ export default {
         ],
       },
       colors: {
-        // "beige": "#EAD7AC",
         "zsmbk-blue": "#54C1E6",
         "zsmbk-golden": "#FEBB01",
+        "zsmbk-green": "#52BE00",
       },
     },
   },

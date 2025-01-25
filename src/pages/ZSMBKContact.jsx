@@ -29,9 +29,9 @@ const ZSMBKContact = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 2, delay: .25, type: "spring" }}
-                className="mt-20 text-7xl max-md:text-4xl text-beige text-center uppercase font-zsmbk-draco">
+                className="mt-20 text-7xl max-md:text-4xl max-sm:text-2xl text-beige text-center uppercase font-zsmbk-draco">
                 ZSMBK
-                <span className="text-xl font-zsmbk-draco block">
+                <span className="text-xl max-md:text-lg max-sm:text-sm font-zsmbk-draco block">
                     Corporation
                 </span>
             </motion.h1>
@@ -45,11 +45,21 @@ const ZSMBKContact = () => {
                 <span className="font-dm-sans-black block text-4xl text-white">Elérhetőségeink</span>
                 <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-blue">- - --</span>
 
-                <div>
+                <motion.div
+                    initial={{ opacity: 0, x: -200 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 2, delay: .5, type: "spring" }}
+                >
                     <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-blue mt-20">ZSMBK</span>
-                    <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-blue">Performance</span>
+                    <span className="font-zsmbk-draco block text-xl max-md:text-lg max-sm:text-sm text-zsmbk-blue">Performance</span>
 
-                    <div className="flex justify-center items-stretch gap-4 w-full mt-8 max-md:flex-col">
+                    <motion.div
+                        initial={{ opacity: 0, x: 200 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 2, delay: .5, type: "spring" }}
+                        className="flex justify-center items-stretch gap-4 w-full mt-8 max-md:flex-col">
                         <div className="flex-1 border-2 border-zsmbk-blue p-8 rounded-lg">
                             <span className="text-gray-400 block mb-4">EMAIL</span>
                             <a href="mailto:info.zsmbkperformance@gmail.com" className="font-bold text-lg transition-all hover:text-zsmbk-blue">info.zsp@gmail.com</a>
@@ -63,8 +73,8 @@ const ZSMBKContact = () => {
                             <span className="text-gray-400 block mb-4">CÍMÜNK</span>
                             <p className="text-2xl max-md:text-lgfont-bold">2250 Los Santos, Docks, Monica str. 25 </p>
                         </div>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: 200 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -72,10 +82,10 @@ const ZSMBKContact = () => {
                     transition={{ duration: 2, delay: .5, type: "spring" }}
                 >
                     <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-golden mt-20">ZSMBK</span>
-                    <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-golden">Mining Station</span>
+                    <span className="font-zsmbk-draco block text-xl max-md:text-lg max-sm:text-sm text-zsmbk-golden">Mining Station</span>
 
                     <motion.div
-                        initial={{ opacity: 0, x: 200 }}
+                        initial={{ opacity: 0, x: -200 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 2, delay: .5, type: "spring" }}
@@ -94,6 +104,37 @@ const ZSMBKContact = () => {
                         <div className="flex-1 border-2 border-zsmbk-golden p-8 rounded-lg">
                             <span className="text-gray-400 block mb-4">CÍMÜNK</span>
                             <p className="text-2xl max-md:text-lgfont-bold">1040 Tierra Robada, Silver Vein</p>
+                        </div>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, x: 200 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 2, delay: .5, type: "spring" }}
+                >
+                    <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-green mt-20">ZSMBK</span>
+                    <span className="font-zsmbk-draco block text-xl max-md:text-lg max-sm:text-sm text-zsmbk-green">Logistics</span>
+
+                    <motion.div
+                        initial={{ opacity: 0, x: -200 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 2, delay: .5, type: "spring" }}
+                        className="flex justify-center items-stretch gap-4 w-full mt-8 max-md:flex-col"
+                    >
+                        <div className="flex-1 border-2 border-zsmbk-green p-8 rounded-lg">
+                            <span className="text-gray-400 block mb-4">EMAIL</span>
+                            <a href="mailto:info.zsmbkperformance@gmail.com" className="font-bold text-lg transition-all hover:text-zsmbk-green">info.zslog@gmail.com</a>
+                        </div>
+                        <div className="flex-1 border-2 border-zsmbk-green p-8 rounded-lg">
+                            <span className="text-gray-400 block mb-4">TELEFON</span>
+                            <span className="text-2xl font-bold">Thomas Russell</span> <br /> (tulajdonos, ügyvezető igazgató):
+                            <p onClick={() => handleCopy(ThomasNumberToCopy)} className="mt-4 text-2xl max-md:text-lg font-bold cursor-pointer transition-all hover:text-zsmbk-green">{ThomasNumberToCopy} <span className="p-4 bg-zsmbk-green text-black mt-5 block rounded-lg">Másolás</span></p>
+                        </div>
+                        <div className="flex-1 border-2 border-zsmbk-green p-8 rounded-lg">
+                            <span className="text-gray-400 block mb-4">CÍMÜNK</span>
+                            <p className="text-2xl max-md:text-lgfont-bold">2250 Los Santos, Docks, Monica str. 25 </p>
                         </div>
                     </motion.div>
                 </motion.div>

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import ZSMBKLogo from "../assets/images/logo/zsmbk-corporation-logo.png";
+import ZSMBKLogo from "../assets/images/logo/zsmbk-corporation-logo.webp";
 import ZSMBKMobileNav from "./zsmbk-header-components/ZSMBKMobileNav";
 import ZSMBKDesktopNav from "./zsmbk-header-components/ZSMBKDesktopNav";
 
@@ -16,6 +16,10 @@ const ZSMBKHeader = () => {
     {
       name: "Mining Station (Bányászat)",
       url: "/zsmbk-mining-station",
+    },
+    {
+      name: "Logistics (Beszállítás)",
+      url: "/zsmbk-logistics",
     },
     {
       name: "Kapcsolat",
@@ -46,7 +50,7 @@ const ZSMBKHeader = () => {
       <nav className="flex gap-4 max-md:flex-col">
         <button
           onClick={toggleMobileMenu}
-          className="md:hidden flex-1 text-center text-beige border-beige border-2 p-3 transition-all hover:bg-beige hover:text-slate-900"
+          className="md:hidden flex-1 text-center text-beige border-beige border-2 p-3 transition-all hover:bg-white hover:text-slate-900"
         >
           Menü
         </button>
