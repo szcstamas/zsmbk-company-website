@@ -58,9 +58,9 @@ const ZSMBKMiningStationHome = () => {
                 className="font-dm-sans-regular text-center mt-12">
                 <span className="font-dm-sans-black block text-4xl text-white">Amit kínálunk</span>
                 <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-golden">-- - -</span>
-                <ul className="text-left list-disc pl-[100px] py-4 max-md:pl-0">
-                    <li><span className="text-zsmbk-golden font-bold">Céges autó:</span> Munkatársaink számára céges járművet biztosítunk, hogy könnyebben és kényelmesebben végezhessék mindennapi feladataikat.</li>
+                <ul className="text-left list-disc pl-[100px] py-4 max-md:pl-0 flex flex-col gap-4 justify-start items-center">
                     <li><span className="text-zsmbk-golden font-bold">Fizetésen felüli juttatások:</span> Heti és havi bónuszokkal jutalmazzuk kollégáink kiemelkedő teljesítményét.</li>
+                    <li><span className="text-zsmbk-golden font-bold">Rangalapú díjazás:</span> Egy bizonyos teljesített csilleszám elérését követően szintlépéssel jutalmazunk, melynek célja, hogy heti szinten egyre nagyobb bónusz-profitot zsebelhess be.</li>
                     <li><span className="text-zsmbk-golden font-bold">Kiemelkedő díjazás:</span> Minden csilléért, amelyet megtöltesz majd kiürítesz, 40.000 dollár üti a markodat.</li>
                     <li><span className="text-zsmbk-golden font-bold">Folyamatos fejlődés:</span> Cégünk stabilan növekszik, és folyamatosan új lehetőségeket teremt munkavállalói számára.</li>
                     <li><span className="text-zsmbk-golden font-bold">Céges rendezvények:</span> Remek hangulatú céges rendezvényeinknek köszönhetően gyerekjáték a csapatépítés!</li>

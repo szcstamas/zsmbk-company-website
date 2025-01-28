@@ -20,7 +20,7 @@ const ZSMBKHome = () => {
         transition={{ duration: 2, delay: .25, type: "spring" }}
         className="mt-20 text-7xl max-md:text-4xl text-beige text-center uppercase font-zsmbk-draco">
         ZSMBK
-        <span className="text-xl font-zsmbk-draco block">
+        <span className="text-xl max-md:text-[14px] font-zsmbk-draco block">
           Corporation
         </span>
       </motion.h1>
@@ -43,8 +43,8 @@ const ZSMBKHome = () => {
         className="border-2 border-zsmbk-blue rounded-lg p-12 mt-20">
         <p className="text-center">
           <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-blue">ZSMBK</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-blue">Performance</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-blue my-4">-- - -</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-blue">Performance</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-blue my-4">-- - -</span>
           <span className="text-zsmbk-blue font-bold">A ZSMBK Performance</span> a kreatív autósok és a stílus szerelmeseinek tökéletes partnere. Autómatricázási szolgáltatásainkkal olyan egyedi megjelenést biztosítunk, amely kiemeli ügyfeleink járműveinek személyiségét és karakterességét. Precizitás, minőség és kreativitás jellemzi munkánkat, legyen szó sportautóról, családi autóról vagy akár céges flottáról.
         </p>
         <Link to="zsmbk-performance" className="p-4 flex items-center justify-center gap-4 font-dm-sans-bold max-w-[300px] mx-auto mt-8 rounded-lg transition-all bg-transparent text-white stroke-white border-2 border-zsmbk-blue hover:bg-zsmbk-blue hover:text-black hover:stroke-black">
@@ -61,8 +61,8 @@ const ZSMBKHome = () => {
         className="border-2 border-zsmbk-golden rounded-lg p-12 mt-20">
         <p className="text-center">
           <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-golden">ZSMBK</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-golden">Mining Station</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-golden my-4">-- - -</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-golden">Mining Station</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-golden my-4">-- - -</span>
           <span className="text-zsmbk-golden font-bold">A ZSMBK Mining Station</span> a bányászati szektorban tevékenykedik, innovatív megoldásokat kínálva az érc- és egyéb nyersanyag-kitermelés terén. A modern technológia és a fenntartható folyamatok iránti elkötelezettségünk révén hatékony és környezettudatos megoldásokat nyújtunk partnereink számára.
         </p>
         <Link to="zsmbk-mining-station" className="p-4 flex items-center justify-center gap-4 font-dm-sans-bold max-w-[300px] mx-auto mt-8 rounded-lg transition-all bg-transparent text-white stroke-white border-2 border-zsmbk-golden hover:bg-zsmbk-golden hover:text-black hover:stroke-black">
@@ -79,8 +79,8 @@ const ZSMBKHome = () => {
         className="border-2 border-zsmbk-green rounded-lg p-12 mt-20">
         <p className="text-center">
           <span className="font-zsmbk-draco block text-6xl max-md:text-2xl text-zsmbk-green">ZSMBK</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-green">Logistics</span>
-          <span className="font-zsmbk-draco block text-2xl max-md:text-lg text-zsmbk-green my-4">-- - -</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-green">Logistics</span>
+          <span className="font-zsmbk-draco block text-2xl max-md:text-[14px] max-md:leading-4 text-zsmbk-green my-4">-- - -</span>
           <span className="text-zsmbk-green font-bold">A ZSMBK Logistics</span> egy dinamikusan fejlődő vállalat, amely a bányák és farmok zavartalan működését támogatja professzionális beszállítói szolgáltatásokkal. Célunk, hogy ügyfeleink minden szükséges eszközt és alapanyagot megkapjanak időben és kiváló minőségben, hozzájárulva sikereikhez és hatékony működésükhöz.
         </p>
         <Link to="zsmbk-logistics" className="p-4 flex items-center justify-center gap-4 font-dm-sans-bold max-w-[300px] mx-auto mt-8 rounded-lg transition-all bg-transparent text-white stroke-white border-2 border-zsmbk-green hover:bg-zsmbk-green hover:text-black hover:stroke-black">
