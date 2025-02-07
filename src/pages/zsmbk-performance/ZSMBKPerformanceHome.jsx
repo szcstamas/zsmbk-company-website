@@ -48,6 +48,27 @@ import Retro003 from "../../assets/images/references/retrooreg/3.webp";
 import Retro004 from "../../assets/images/references/retrooreg/4.webp";
 import Retro005 from "../../assets/images/references/retrooreg/5.webp";
 import Retro006 from "../../assets/images/references/retrooreg/6.webp";
+import Uvegtigris001 from "../../assets/images/references/uvegtigris/1.webp";
+import Uvegtigris002 from "../../assets/images/references/uvegtigris/2.webp";
+import Uvegtigris003 from "../../assets/images/references/uvegtigris/3.webp";
+import Uvegtigris004 from "../../assets/images/references/uvegtigris/4.webp";
+import Uvegtigris005 from "../../assets/images/references/uvegtigris/5.webp";
+import Uvegtigris006 from "../../assets/images/references/uvegtigris/6.webp";
+import Uvegtigris007 from "../../assets/images/references/uvegtigris/7.webp";
+import Japanese001 from "../../assets/images/references/japanese/1.webp";
+import Japanese002 from "../../assets/images/references/japanese/2.webp";
+import Japanese003 from "../../assets/images/references/japanese/3.webp";
+import Japanese004 from "../../assets/images/references/japanese/4.webp";
+import Japanese005 from "../../assets/images/references/japanese/5.webp";
+import Japanese006 from "../../assets/images/references/japanese/6.webp";
+import Manorud001 from "../../assets/images/references/manorud/1.webp";
+import Manorud002 from "../../assets/images/references/manorud/2.webp";
+import Manorud003 from "../../assets/images/references/manorud/3.webp";
+import Manorud004 from "../../assets/images/references/manorud/4.webp";
+import FinesseUber001 from "../../assets/images/references/finesseuber/1.webp";
+import FinesseUber002 from "../../assets/images/references/finesseuber/2.webp";
+import FinesseUber003 from "../../assets/images/references/finesseuber/3.webp";
+import FinesseUber004 from "../../assets/images/references/finesseuber/4.webp";
 
 const ZSMBKPerformanceHome = () => {
     const ThomasNumberToCopy = "+38-76-118-5169";
@@ -88,6 +109,26 @@ const ZSMBKPerformanceHome = () => {
             ]
         },
         {
+            name: "MANORUD",
+            images: [
+                Manorud001,
+                Manorud002,
+                Manorud003,
+                Manorud004
+            ]
+        },
+        {
+            name: "RETRO-001",
+            images: [
+                Retro001,
+                Retro002,
+                Retro003,
+                Retro004,
+                Retro005,
+                Retro006,
+            ]
+        },
+        {
             name: "MIAMI",
             images: [
                 Miami001,
@@ -113,6 +154,38 @@ const ZSMBKPerformanceHome = () => {
             ]
         },
         {
+            name: "FINESSE-UBER",
+            images: [
+                FinesseUber001,
+                FinesseUber002,
+                FinesseUber003,
+                FinesseUber004
+            ]
+        },
+        {
+            name: "UVEGTIGRIS",
+            images: [
+                Uvegtigris001,
+                Uvegtigris002,
+                Uvegtigris003,
+                Uvegtigris004,
+                Uvegtigris005,
+                Uvegtigris006,
+                Uvegtigris007
+            ]
+        },
+        {
+            name: "JAPANESE",
+            images: [
+                Japanese001,
+                Japanese002,
+                Japanese003,
+                Japanese004,
+                Japanese005,
+                Japanese006
+            ]
+        },
+        {
             name: "PANDA",
             images: [
                 Panda001,
@@ -122,18 +195,7 @@ const ZSMBKPerformanceHome = () => {
                 Panda005,
                 Panda006,
             ]
-        },
-        {
-            name: "RETRO-001",
-            images: [
-                Retro001,
-                Retro002,
-                Retro003,
-                Retro004,
-                Retro005,
-                Retro006,
-            ]
-        },
+        }
 
     ];
 
