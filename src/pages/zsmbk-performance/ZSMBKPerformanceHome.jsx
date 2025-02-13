@@ -61,6 +61,12 @@ import Japanese003 from "../../assets/images/references/japanese/3.webp";
 import Japanese004 from "../../assets/images/references/japanese/4.webp";
 import Japanese005 from "../../assets/images/references/japanese/5.webp";
 import Japanese006 from "../../assets/images/references/japanese/6.webp";
+import Redmane001 from "../../assets/images/references/redmane/1.webp";
+import Redmane002 from "../../assets/images/references/redmane/2.webp";
+import Redmane003 from "../../assets/images/references/redmane/3.webp";
+import Redmane004 from "../../assets/images/references/redmane/4.webp";
+import Redmane005 from "../../assets/images/references/redmane/5.webp";
+import Redmane006 from "../../assets/images/references/redmane/6.webp";
 import Manorud001 from "../../assets/images/references/manorud/1.webp";
 import Manorud002 from "../../assets/images/references/manorud/2.webp";
 import Manorud003 from "../../assets/images/references/manorud/3.webp";
@@ -151,6 +157,17 @@ const ZSMBKPerformanceHome = () => {
                 Nikola005,
                 Nikola006,
                 Nikola007
+            ]
+        },
+        {
+            name: "REDMANE",
+            images: [
+                Redmane001,
+                Redmane002,
+                Redmane003,
+                Redmane004,
+                Redmane005,
+                Redmane006
             ]
         },
         {
